@@ -10,34 +10,107 @@
     <title>Sudoku Solver</title>
 </head>
 <body>
-    <table>
+    <table class="grid-container" cell-spacing="0" cell-padding="0">
         <tr class="row1">
-            <td class="box1"></td> <td class="box2"></td> <td class="box3"></td> <td class="box4"></td> <td class="box5"></td> <td class="box6"></td> <td class="box7"></td> <td class="box8"></td> <td class="box9"></td>
+            <td id="1" class="col1"></td>
+            <td id="2" class="col2"></td> 
+            <td id="3" class="col3"></td> 
+            <td id="1" class="col4"></td> 
+            <td id="2" class="col5"></td> 
+            <td id="3" class="col6"></td> 
+            <td id="1" class="col7"></td> 
+            <td id="2" class="col8"></td> 
+            <td id="3" class="col9"></td>
         </tr>
         <tr class="row2">
-            <td class="box1"></td> <td class="box2"></td> <td class="box3"></td> <td class="box4"></td> <td class="box5"></td> <td class="box6"></td> <td class="box7"></td> <td class="box8"></td> <td class="box9"></td>
+            <td id="4" class="col1"></td> 
+            <td id="5" class="col2"></td>
+            <td id="6" class="col3"></td> 
+            <td id="4" class="col4"></td> 
+            <td id="5" class="col5"></td> 
+            <td id="6" class="col6"></td> 
+            <td ud="4" class="col7"></td> 
+            <td id="5" class="col8"></td> 
+            <td id="6" class="col9"></td>
         </tr>
         <tr class="row3">
-            <td class="box1"></td> <td class="box2"></td> <td class="box3"></td> <td class="box4"></td> <td class="box5"></td> <td class="box6"></td> <td class="box7"></td> <td class="box8"></td> <td class="box9"></td>
+            <td id="7" class="col1"></td> 
+            <td id="8" class="col2"></td> 
+            <td id="9" class="col3"></td>
+            <td id="7" class="col4"></td> 
+            <td id="2" class="col5"></td> 
+            <td id="9" class="col6"></td> 
+            <td id="7" class="col7"></td> 
+            <td id="8" class="col8"></td> 
+            <td id="9" class="col9"></td>
         </tr>
-        <tr class="row1">
-            <td class="box1"></td> <td class="box2"></td> <td class="box3"></td> <td class="box4"></td> <td class="box5"></td> <td class="box6"></td> <td class="box7"></td> <td class="box8"></td> <td class="box9"></td>
+        <tr class="row4">
+            <td id="28" class="col1"></td> 
+            <td id="29" class="col1"></td> 
+            <td id="30" class="col3"></td> 
+            <td id="31" class="col4"></td> 
+            <td id="32" class="col5"></td> 
+            <td id="33" class="col6"></td> 
+            <td id="34" class="col7"></td> 
+            <td id="35" class="col8"></td> 
+            <td id="36" class="col9"></td>
         </tr>
-        <tr class="row2">
-            <td class="box1"></td> <td class="box2"></td> <td class="box3"></td> <td class="box4"></td> <td class="box5"></td> <td class="box6"></td> <td class="box7"></td> <td class="box8"></td> <td class="box9"></td>
+        <tr class="row5">
+            <td id="37" class="col1"></td> 
+            <td id="38" class="col2"></td> 
+            <td id="39" class="col3"></td> 
+            <td id="40" class="col4"></td> 
+            <td id="41" class="col5"></td> 
+            <td id="42" class="col6"></td> 
+            <td id="43" class="col7"></td> 
+            <td id="44" class="col8"></td> 
+            <td id="45" class="col9"></td>
         </tr>
-        <tr class="row3">
-            <td class="box1"></td> <td class="box2"></td> <td class="box3"></td> <td class="box4"></td> <td class="box5"></td> <td class="box6"></td> <td class="box7"></td> <td class="box8"></td> <td class="box9"></td>
+        <tr class="row6">
+            <td id="46" class="col1"></td> 
+            <td id="47" class="col2"></td> 
+            <td id="48" class="col3"></td> 
+            <td id="49" class="col4"></td> 
+            <td id="50" class="col5"></td> 
+            <td id="51" class="col6"></td> 
+            <td id="52" class="col7"></td> 
+            <td id="53" class="col8"></td> 
+            <td id="54" class="col9"></td>
         </tr>
-        <tr class="row1">
-            <td class="box1"></td> <td class="box2"></td> <td class="box3"></td> <td class="box4"></td> <td class="box5"></td> <td class="box6"></td> <td class="box7"></td> <td class="box8"></td> <td class="box9"></td>
+        <tr class="row7">
+            <td id="55" class="col1"></td> 
+            <td id="56" class="col2"></td> 
+            <td id="57" class="col3"></td> 
+            <td id="58" class="col4"></td> 
+            <td id="59" class="col5"></td> 
+            <td id="60" class="col6"></td> 
+            <td id="61" class="col7"></td> 
+            <td id="62" class="col8"></td> 
+            <td id="63" class="col9"></td>
         </tr>
-        <tr class="row2">
-            <td class="box1"></td> <td class="box2"></td> <td class="box3"></td> <td class="box4"></td> <td class="box5"></td> <td class="box6"></td> <td class="box7"></td> <td class="box8"></td> <td class="box9"></td>
+        <tr class="row8">
+            <td id="64" class="col1"></td> 
+            <td id="65" class="col2"></td> 
+            <td id="66" class="col3"></td> 
+            <td id="67" class="col4"></td> 
+            <td id="68" class="col5"></td> 
+            <td id="69" class="col6"></td> 
+            <td id="70" class="col7"></td> 
+            <td id="71" class="col8"></td> 
+            <td id="72" class="col9"></td>
         </tr>
-        <tr class="row3">
-            <td class="box1"></td> <td class="box2"></td> <td class="box3"></td> <td class="box4"></td> <td class="box5"></td> <td class="box6"></td> <td class="box7"></td> <td class="box8"></td> <td class="box9"></td>
+        <tr class="row9">
+            <td id="73" class="col1"></td> 
+            <td id="74" class="col2"></td> 
+            <td id="75" class="col3"></td> 
+            <td id="76" class="col4"></td> 
+            <td id="77" class="col5"></td> 
+            <td id="78" class="col6"></td> 
+            <td id="79" class="col7"></td> 
+            <td id="80" class="col8"></td> 
+            <td id="81" class="col9"></td>
         </tr>
     </table>
+    <button id="play">Play</button>
 </body>
 </html>

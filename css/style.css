@@ -1,54 +1,50 @@
-.box1{
-    height: 50px;
-    width: 50px;
-    background-color:lightpink;
+table{
+    border-spacing: 0px;
+    border-style: hidden;
 }
 
-.box2{
-    height: 50px;
-    width: 50px;
-    background-color:lightpink;
+.col1{
+    height:50px;
+    width:50px;
+    border-style: solid;
 }
-
-.box3{
-    height: 50px;
-    width: 50px;
-    background-color:lightpink;
+.col2{
+    height:50px;
+    width:50px;
+    border-style: solid;
 }
-
-.box4{
-    height: 50px;
-    width: 50px;
-    background-color:lightpink;
+.col3{
+    height:50px;
+    width:50px;
+    border-style: solid;
 }
-
-.box5{
-    height: 50px;
-    width: 50px;
-    background-color:lightpink;
+.col4{
+    height:50px;
+    width:50px;
+    border-style: solid;
 }
-
-.box6{
-    height: 50px;
-    width: 50px;
-    background-color:lightpink;
+.col5{
+    height:50px;
+    width:50px;
+    border-style: solid;
 }
-
-.box7{
-    height: 50px;
-    width: 50px;
-    background-color:lightpink;
+.col6{
+    height:50px;
+    width:50px;
+    border-style: solid;
 }
-
-.box8{
-    height: 50px;
-    width: 50px;
-    background-color:lightpink;
+.col7{
+    height:50px;
+    width:50px;
+    border-style: solid;
 }
-
-.box9{
-    height: 50px;
-    width: 50px;
-    background-color:lightpink;
+.col8{
+    height:50px;
+    width:50px;
+    border-style: solid;
 }
-
+.col9{
+    height:50px;
+    width:50px;
+    border-style: solid;
+}
